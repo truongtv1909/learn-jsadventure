@@ -7,14 +7,24 @@
 // }
 // greeting.call(cat);
 
-function sum(){
-  return  this.num1 + this.num2
-}
+// function sum(){
+//   return  this.num1 + this.num2
+// }
 
-const k = {
-    num1: 2,
-    num2: 3
-}
+// const k = {
+//     num1: 2,
+//     num2: 3
+// }
 
-var a =sum.call(k);
-console.log(a);
+// var a =sum.apply(k);
+// console.log(a);
+
+// function sum(){
+//     const arr = Array.from(arguments);
+//     let s = arr.reduce((a,b)=>a+b);
+//     // const p = arguments;
+//     // let s = 
+//     console.log(arr);
+// }
+
+// sum(1,2,34);
