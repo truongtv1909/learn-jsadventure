@@ -9,4 +9,4 @@ let cat = {
 }
  let say = mouse.sayHi.bind(mouse);
  say();
-// console.log(mouse.sayHi);
+console.log(mouse.sayHi);
