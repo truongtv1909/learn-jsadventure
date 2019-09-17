@@ -1,11 +1,22 @@
 {
   "name": "learn",
   "version": "1.0.0",
-  "description": "",
+  "description": "How to learn-js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongtv1909/learn-jsadventure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/truongtv1909/learn-jsadventure/issues"
+  },
+  "homepage": "https://github.com/truongtv1909/learn-jsadventure#readme",
+  "dependencies": {
+    "promise-fs": "^2.1.1"
+  }
 }
